@@ -4,9 +4,9 @@ class Employee {
   constructor(firstName, lastName, age, jobPosition, salary) {
     this.firstName = firstName;
     this.lastName = lastName;
-    this.age = Number(age);
+    this.age = age;
     this.jobPosition = jobPosition;
-    this.salary = Number(salary);
+    this.salary = salary;
   }
   get fullName() {
     console.log(`Full name: ${this.firstName} ${this.lastName}`);
