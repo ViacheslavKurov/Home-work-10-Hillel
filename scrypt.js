@@ -11,7 +11,7 @@ class Employee {
   get fullName() {
     return (`Full name: ${this.firstName} ${this.lastName}`);
   }
-yearSalarOfEmployee () {
+getSalarOfEmployee () {
  console.log(`Year salary: ${this.salary * this.vacationDays}`)
 }
 }
@@ -21,6 +21,6 @@ const EmployeeOfStock = new Employee("Garry", "Fisher", 25, "Supervisor", 1000);
 console.log(EmployeeInfo);
 console.log(EmployeeOfStock);
 console.log(EmployeeInfo.fullName);
-EmployeeInfo.yearSalarOfEmployee();
+EmployeeInfo.getSalarOfEmployee();
 console.log(EmployeeOfStock.fullName);
-EmployeeOfStock.yearSalarOfEmployee();
+EmployeeOfStock.getSalarOfEmployee();
